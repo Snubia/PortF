@@ -8,11 +8,7 @@ class Contact extends Component {
         <Grid className='contact-grid'>
           <Cell col={6}>
             <h2>Sandrine Nubia</h2>
-            <img
-              src={'./contact.jpg'}
-              alt='avatar'
-              style={{ height: '250px' }}
-            />
+            <img src='contact.jpg' alt='avatar' style={{ height: '250px' }} />
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
