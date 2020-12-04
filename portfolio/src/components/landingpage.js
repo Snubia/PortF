@@ -14,13 +14,13 @@ class Landing extends Component {
             />
 
             <div className='banner-text'>
-              <h1>Full Stack Sofware Developer</h1>
+              <h1>Full Stack Software Developer</h1>
 
               <hr />
 
               <p>
                 HTML/CSS | Bootstrap | JavaScript | React | MySQL | NodeJS |
-                Express | MongoDB| Python| Graphql
+                Express | MongoDB| Python| C++ | Graphql
               </p>
 
               <div className='social-links'>
