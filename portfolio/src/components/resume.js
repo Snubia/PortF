@@ -47,7 +47,7 @@ class Resume extends Component {
             <h2>Skills</h2>
             <p>
               Javascript, HTML, CSS, Bootstrap, MySQL, MongoDB, Python, Redux,
-              Node.js, React.js, GraphQL
+              Node.js, React.js, GraphQL, C++
             </p>
 
             <hr style={{ borderTop: '3px solid #e22947' }} />
