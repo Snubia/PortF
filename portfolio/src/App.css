@@ -1,18 +1,26 @@
 .header-color {
-  background: #833ab4;
+ /* background: #833ab4;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+ /* background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+ /* background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #833ab4;
+  background-image: url(./images/bcg.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1500px 1000px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+ /* background: #833ab4;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045);
+  /*background: -webkit-linear-gradient(to right, #fcb045);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045);
+  /*background: linear-gradient(to right, #fcb045);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
