@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import prof from '../images/prof.jpeg';
 
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: '80%', margin: 'auto' }}>
+      <div style={{ width: '100%', margin: 'auto' }}>
         <Grid className='landing-grid'>
           <Cell col={12}>
             <img
-              src='https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.pngmart.com%2Fimage%2F148878&psig=AOvVaw0-2xQSmEPWVizA6TnYiHC_&ust=1611738061916000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDtlLKeue4CFQAAAAAdAAAAABAD'
+              src={prof}
               alt='avatar'
               className='avatar-img'
             />

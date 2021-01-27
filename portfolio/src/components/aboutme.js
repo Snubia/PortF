@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import prof from '../images/prof.jpeg';
 
 
 class About extends Component {
@@ -7,7 +8,7 @@ class About extends Component {
       <div>
         <div style={{ textAlign: 'center' }}>
               <img
-                src='https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.pngmart.com%2Fimage%2F148878&psig=AOvVaw0-2xQSmEPWVizA6TnYiHC_&ust=1611738061916000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDtlLKeue4CFQAAAAAdAAAAABAD'
+                src={prof}
                 alt='avatar'
                 style={{ height: '200px' }}
               />
