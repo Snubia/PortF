@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import prof from '../images/prof.jpeg';
+import techy from '../images/techy.jpeg';
+import glam from '../images/glam.jpeg';
 import {
   Tabs,
   Tab,
@@ -25,19 +27,19 @@ class Projects extends Component {
       return (
         <div className='projects-grid'>
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '500', margin: 'auto' }}>
             <CardTitle
               style={{
                 color: '#fff',
-                height: '176px',
+                height: '200px',
                 background:
                   'url(https://still-caverns-19224.herokuapp.com/) center / cover',
               }}
             >
               <img
-                src={prof}
+                src={techy}
                 alt='avatar'
-                style={{ height: '400px' }}
+                style={{ height: '200px' }}
               />
               React Project #1
             </CardTitle>
@@ -87,19 +89,19 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '500', margin: 'auto' }}>
             <CardTitle
               style={{
                 color: '#fff',
-                height: '176px',
+                height: '200px',
                 background:
                   'url(https://github.com/Snubia/Employee_Directoy/blob/master/dem.jpeg) center / cover',
               }}
             >
               <img
-                src={prof}
+                src={glam}
                 alt='avatar'
-                style={{ height: '400px' }}
+                style={{ height: '200px' }}
               />
               Employee Directory
             </CardTitle>
