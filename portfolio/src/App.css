@@ -1,14 +1,14 @@
 .header-color {
-  background-color: #4ac0c4;
+  background-color: #40bf77;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right,  #D8BFD8, #D8BFD8, #D8BFD8);
+  background: -webkit-linear-gradient(to right,  #20603b, #20603b, #20603b);
   /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to right, #D8BFD8, #D8BFD8, #D8BFD8);
+ background: linear-gradient(to right, #20603b, #20603b, #20603b);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background-image: url(./images/pink.jpeg);
+  background-image: url(./images/bcg.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -36,7 +36,7 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
+  background:#20603b;
   color: white;
   padding: 2em;
 }
@@ -91,9 +91,9 @@
 }
 
 .banner-text {
-  background-color: black;
+  background-color: rgb(145, 119, 119);
   opacity: .8;
-  width: 75%;
+  width: 55%;
   margin: auto;
   border-radius: 10px;
 }

@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
 import prof from '../images/prof.jpeg';
 
 
 class About extends Component {
   render() {
     return(
-      <div>
-        <div style={{ textAlign: 'center' }}>
+     
+      <Cell className='resume-right-col' col={4}>
+            <div style={{ textAlign: 'center' }}>
               <img
                 src={prof}
                 alt='avatar'
-                style={{ height: '200px' }}
+                style={{ height: '400px' }}
               />
             </div>
 
             <h2 style={{ paddingTop: '2em' }}>Sandrine Nubia</h2>
             <h4 style={{ color: 'grey' }}>Software Developer</h4>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <hr style={{ borderTop: '3px solid #ffb3ec', width: '70%' }} />
             <p>
               Certified Full-stack software developper with a solid background
               in Security and Privacy compliance. Forward-thinking business
@@ -29,16 +31,16 @@ class About extends Component {
               experience through optimal communication skills. Accomplished as
               team leader and individual contributor.{' '}
             </p>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <hr style={{ borderTop: '3px solid #ffb3ec', width: '50%' }} />
             <h5>Address</h5>
             <p>1601 S Lane St, Seattle, Washington</p>
             <h5>Phone</h5>
             <p>(425) 435-5139</p>
             <h5>Email</h5>
-            <p>nunubabila@gmail.com</p>
+            <p>sandrinenubia@gmail.com</p>
 
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-      </div>
+            <hr style={{ borderTop: '3px solid #ffb3ec', width: '50%' }} />
+          </Cell>
 
       
     )
