@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import prof from '../images/prof.jpeg';
 import {
   Tabs,
   Tab,
@@ -33,6 +34,11 @@ class Projects extends Component {
                   'url(https://still-caverns-19224.herokuapp.com/) center / cover',
               }}
             >
+              <img
+                src={prof}
+                alt='avatar'
+                style={{ height: '400px' }}
+              />
               React Project #1
             </CardTitle>
             <CardText>
@@ -56,9 +62,14 @@ class Projects extends Component {
                 color: '#fff',
                 height: '176px',
                 background:
-                  'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover',
+                  'url(../images/techy.jpeg) center / cover',
               }}
             >
+              <img
+                src={prof}
+                alt='avatar'
+                style={{ height: '400px' }}
+              />
               GlamHouse
             </CardTitle>
             <CardText>
@@ -85,6 +96,11 @@ class Projects extends Component {
                   'url(https://github.com/Snubia/Employee_Directoy/blob/master/dem.jpeg) center / cover',
               }}
             >
+              <img
+                src={prof}
+                alt='avatar'
+                style={{ height: '400px' }}
+              />
               Employee Directory
             </CardTitle>
             <CardText>
