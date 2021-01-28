@@ -36,7 +36,9 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background:#20603b;
+  
+  background-color: rgb(35, 116, 78);
+ 
   color: white;
   position: absolute;
   padding: 2em;
@@ -59,8 +61,10 @@
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: #20603b;
-  color: black;
+ 
+  background-color: rgb(35, 116, 78);
+  opacity: .8;
+  color: white;
   margin-bottom: 20px;
 }
 

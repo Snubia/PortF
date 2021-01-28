@@ -79,7 +79,7 @@ class Projects extends Component {
               and stripe for payment carts
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button href="" colored>GitHub</Button>
 
               <Button colored>Live Demo</Button>
             </CardActions>
@@ -101,7 +101,7 @@ class Projects extends Component {
               <img
                 src={glam}
                 alt='avatar'
-                style={{ height: '200px' }}
+                style={{ height: '175px' }}
               />
               Employee Directory
             </CardTitle>
@@ -110,7 +110,7 @@ class Projects extends Component {
               industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button href="https://limitless-citadel-93108.herokuapp.com/" colored>GitHub</Button>
 
               <Button colored>Live Demo</Button>
             </CardActions>
