@@ -7,7 +7,7 @@ class About extends Component {
   render() {
     return(
      
-      <Cell className='resume-right-col' col={4}>
+      <Cell className='resume-right-col' row={4}>
             <div style={{ textAlign: 'center' }}>
               <img
                 src={prof}

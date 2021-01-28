@@ -38,7 +38,9 @@
 .resume-right-col {
   background:#20603b;
   color: white;
+  position: absolute;
   padding: 2em;
+  right: 15px;
 }
 
 /* contact page css */
@@ -57,7 +59,7 @@
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: white;
+  background: #20603b;
   color: black;
   margin-bottom: 20px;
 }
@@ -91,11 +93,15 @@
 }
 
 .banner-text {
-  background-color: rgb(145, 119, 119);
+  background-color: rgb(35, 116, 78);
   opacity: .8;
   width: 55%;
   margin: auto;
   border-radius: 10px;
+  position: relative;
+  bottom: 10px;
+  top: 200px;
+  right: 0;
 }
 
 .banner-text h1 {
