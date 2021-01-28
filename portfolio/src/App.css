@@ -45,6 +45,19 @@
   right: 15px;
 }
 
+/* about me page */
+.about-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+ 
+  background-color: rgb(23, 49, 37);
+  opacity: .8;
+  color: white;
+  margin-bottom: 20px;
+}
+
 /* contact page css */
 
 .contact-body {
